@@ -4,14 +4,32 @@
       <meta charset="utf-8">
       <title>Biglietto Treno</title>
       <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
    </head>
    <body>
 
       <div class="container">
+         <h1></h1>
+         <div class="container-top">
+            <div class="box age">
+               <h3>AGE</h3>
+               <hr>
+               <div id="age-box"><span id="age"></span> y.o.</div>
+            </div>
+            <div class="box km">
+               <h3>KM</h3>
+               <hr>
+               <div id="km-box"><span id="km"></span> km</div>
+            </div>
+         </div>
+         <div class="container-bottom">
+            <h3>TICKET PRICE</h3>
+            <hr>
+            <div id="price-box"><span id="price"></span> €</div>
+         </div>
 
-         <div id="km"></div>
-         <div id="age"></div>
-         <div id="price"></div>
+
+
       </div>
 
       <script src="script.js" charset="utf-8"></script>

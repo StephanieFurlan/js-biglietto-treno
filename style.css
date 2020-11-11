@@ -3,3 +3,59 @@
    margin: 0;
    padding: 0;
 }
+
+
+body {
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   background-color: #3A3A3A;
+}
+
+.container {
+   width: 50%;
+   margin: 100px auto;
+   background-color: #ffffff;
+   padding: 40px;
+   border-radius: 5px;
+   color: white;
+}
+
+.container-top {
+   display: flex;
+   justify-content: space-between;
+}
+
+.box {
+   width: calc(50% - 10px);
+   height: 200px;
+   border-radius: 5px;
+   background: #ec643e;
+   margin: 10px;
+   padding: 10px;
+}
+
+hr {
+   margin: 5px 0;
+   background-color: white;
+}
+
+#age-box, #km-box {
+   margin-top: 40px;
+   text-align: center;
+   font-size: 50px;
+}
+
+#price-box {
+   margin: 20px 0;
+   text-align: center;
+   font-size: 50px;
+   color: black;
+}
+.container-bottom {
+   color: #ec643e;
+   border-radius: 5px;
+   padding: 10px;
+   border: 1px solid #ec643e;
+   width: calc(100% - 20px);
+   margin: 10px;
+}

@@ -19,6 +19,7 @@ while (!checkAge(age)) {
 }
 
 
+
 var km = parseFloat(prompt("How long would you travel for?"));
 while (!checkKm(km)) {
    km = parseFloat(prompt("The value must be a positive number! Try again...How long would you travel for?"));
@@ -32,6 +33,7 @@ if (age < 18) {
    price *= (1 -  40 / 100);
 }
 
-document.getElementById("km").innerHTML = km;
 document.getElementById("age").innerHTML = age;
+document.getElementById("km").innerHTML = km;
+
 document.getElementById("price").innerHTML = price.toFixed(2);
